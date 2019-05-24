@@ -81,7 +81,6 @@ export class MacUpdater extends BaseUpdater {
             if (!errorOccurred) {
               this.nativeUpdater.removeListener("error", reject)
             }
-            resolve(false)
           }
         })
 

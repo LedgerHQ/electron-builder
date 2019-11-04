@@ -1,7 +1,7 @@
 {
-  "name": "electron-builder",
-  "description": "A complete solution to package and build a ready for distribution Electron app for MacOS, Windows and Linux with “auto update” support out of the box",
-  "version": "0.0.0-semantic-release",
+  "name": "@ledgerhq/electron-builder",
+  "description": "electron-builder fork for Ledger Live",
+  "version": "20.34.0",
   "main": "out/index.js",
   "files": [
     "out"
@@ -11,7 +11,7 @@
     "build": "./out/cli/cli.js",
     "install-app-deps": "./out/cli/install-app-deps.js"
   },
-  "repository": "electron-userland/electron-builder",
+  "repository": "LedgerHQ/electron-builder",
   "engines": {
     "node": ">=6.11.4"
   },
@@ -43,13 +43,14 @@
     "Stefan Judis"
   ],
   "license": "MIT",
-  "bugs": "https://github.com/electron-userland/electron-builder/issues",
-  "homepage": "https://github.com/electron-userland/electron-builder",
+  "bugs": "https://github.com/LedgerHQ/electron-builder/issues",
+  "homepage": "https://github.com/LedgerHQ/electron-builder",
   "dependencies": {
+    "@ledgerhq/app-builder-lib": "20.34.0",
     "bluebird-lst": "^1.0.6",
     "chalk": "^2.4.1",
-    "builder-util-runtime": "0.0.0-semantic-release",
-    "builder-util": "0.0.0-semantic-release",
+    "builder-util-runtime": "7.1.0",
+    "builder-util": "9.1.0",
     "fs-extra-p": "^7.0.0",
     "is-ci": "^1.2.1",
     "read-config-file": "3.2.0",
@@ -57,8 +58,7 @@
     "update-notifier": "^2.5.0",
     "yargs": "^12.0.2",
     "lazy-val": "^1.0.3",
-    "app-builder-lib": "0.0.0-semantic-release",
-    "dmg-builder": "0.0.0-semantic-release"
+    "dmg-builder": "6.2.1"
   },
   "typings": "./out/index.d.ts",
   "publishConfig": {

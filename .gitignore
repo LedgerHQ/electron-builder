@@ -19,8 +19,8 @@ node_modules/
 /test/out/**/*.map
 /test/test-report.xml
 
-/packages/electron-builder/README.md
-/packages/app-builder-lib/scheme.json
+/packages/@ledgerhq/electron-builder/README.md
+/packages/@ledgerhq/app-builder-lib/scheme.json
 
 /scripts/jsdoc/out/
 /scripts/renderer/out/

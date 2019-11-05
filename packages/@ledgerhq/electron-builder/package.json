@@ -1,7 +1,7 @@
 {
   "name": "@ledgerhq/electron-builder",
   "description": "electron-builder fork for Ledger Live",
-  "version": "20.34.0",
+  "version": "20.34.1",
   "main": "out/index.js",
   "files": [
     "out"
@@ -46,7 +46,7 @@
   "bugs": "https://github.com/LedgerHQ/electron-builder/issues",
   "homepage": "https://github.com/LedgerHQ/electron-builder",
   "dependencies": {
-    "@ledgerhq/app-builder-lib": "20.34.0",
+    "@ledgerhq/app-builder-lib": "20.34.1",
     "bluebird-lst": "^1.0.6",
     "chalk": "^2.4.1",
     "builder-util-runtime": "7.1.0",

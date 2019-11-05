@@ -1,5 +1,5 @@
 const path = require("path")
-const version = require(path.join(__dirname, "../packages/app-builder-lib/package.json")).version
+const version = require(path.join(__dirname, "../packages/@ledgerhq/app-builder-lib/package.json")).version
 
 Object.defineProperty(exports, "__esModule", {
   value: true

@@ -12,6 +12,6 @@ export {
   WindowsSignOptions, CustomWindowsSignTaskConfiguration, WindowsSignTaskConfiguration, CustomWindowsSign, FileCodeSigningInfo, CertificateFromStoreInfo,
   Metadata, AuthorMetadata, RepositoryInfo, AppInfo,
   UploadTask, PublishManager, PublishOptions, ProgressInfo
-} from "app-builder-lib"
-export { buildForge, ForgeOptions } from "app-builder-lib"
+} from "@ledgerhq/app-builder-lib"
+export { buildForge, ForgeOptions } from "@ledgerhq/app-builder-lib"
 export { CancellationToken } from "builder-util-runtime"

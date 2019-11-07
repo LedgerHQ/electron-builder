@@ -1,7 +1,7 @@
 {
   "name": "@ledgerhq/app-builder-lib",
   "description": "electron-builder lib",
-  "version": "20.34.1",
+  "version": "20.34.2",
   "main": "out/index.js",
   "files": [
     "out",
@@ -45,9 +45,11 @@
     "app-builder-bin": "2.4.1",
     "async-exit-hook": "^2.0.1",
     "bluebird-lst": "^1.0.6",
-    "chromium-pickle-js": "^0.2.0",
-    "builder-util-runtime": "7.1.0",
     "builder-util": "9.1.0",
+    "builder-util-runtime": "7.1.0",
+    "chromium-pickle-js": "^0.2.0",
+    "debug": "^4.1.0",
+    "ejs": "^2.6.1",
     "electron-osx-sign": "0.4.11",
     "electron-publish": "20.33.2",
     "fs-extra-p": "^7.0.0",
@@ -55,16 +57,14 @@
     "is-ci": "^1.2.1",
     "isbinaryfile": "^3.0.3",
     "js-yaml": "^3.12.0",
-    "read-config-file": "3.2.0",
+    "lazy-val": "^1.0.3",
     "minimatch": "^3.0.4",
     "normalize-package-data": "^2.4.0",
     "plist": "^3.0.1",
+    "read-config-file": "3.2.0",
     "sanitize-filename": "^1.6.1",
     "semver": "^5.6.0",
-    "debug": "^4.1.0",
-    "lazy-val": "^1.0.3",
-    "temp-file": "^3.2.0",
-    "ejs": "^2.6.1"
+    "temp-file": "^3.2.0"
   },
   "typings": "./out/index.d.ts"
 }

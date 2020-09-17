@@ -2284,6 +2284,24 @@
             "string"
           ]
         },
+        "strictVerify": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": [
+                "string",
+                "boolean"
+              ]
+            }
+          ],
+          "default": true,
+          "description": "Whether to let electron-osx-sign verify the contents or not."
+        },
         "target": {
           "anyOf": [
             {
@@ -2831,6 +2849,24 @@
             "string"
           ]
         },
+        "strictVerify": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": [
+                "string",
+                "boolean"
+              ]
+            }
+          ],
+          "default": true,
+          "description": "Whether to let electron-osx-sign verify the contents or not."
+        },
         "target": {
           "anyOf": [
             {
@@ -2917,7 +2953,7 @@
         },
         "buildResources": {
           "default": "build",
-          "description": "The path to build resources.\n\nPlease note — build resources is not packed into the app. If you need to use some files, e.g. as tray icon, please include required files explicitly: `\"files\": [\"**\\/*\", \"build/icon.*\"]`",
+          "description": "The path to build resources.\n\nPlease note — build resources are not packed into the app. If you need to use some files, e.g. as tray icon, please include required files explicitly: `\"files\": [\"**\\/*\", \"build/icon.*\"]`",
           "type": [
             "null",
             "string"
